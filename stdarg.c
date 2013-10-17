@@ -23,6 +23,6 @@ int main()
 {
 	int sum = 0;
 	for (int i = 0; i < 90000000; i++)
-		sum += fc(i, i, i, i, i);
+		sum += fca(i, i, i, i, i);
 	return sum;
 }
